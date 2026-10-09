@@ -3,8 +3,6 @@ name: Build ZMK firmware
 'on':
   push:
     branches: [run]
-  pull_request:
-    branches: [run]
   workflow_dispatch:
 
 jobs:
